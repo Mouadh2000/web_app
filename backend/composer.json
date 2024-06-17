@@ -1,0 +1,12 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/",
+            "Middleware\\": "middleware/"
+        }
+    }
+}
